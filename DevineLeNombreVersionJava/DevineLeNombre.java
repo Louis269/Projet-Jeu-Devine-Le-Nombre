@@ -16,6 +16,7 @@ public class DevineLeNombre {
             System.out.println("1 → Facile (1-50, 15 essais)");
             System.out.println("2 → Moyen (1-100, 10 essais)");
             System.out.println("3 → Difficile (1-200, 7 essais)");
+            System.out.println("4 → Expert (1-50, 5 essais)");
 
             int choix = scanner.nextInt();
 
@@ -34,6 +35,10 @@ public class DevineLeNombre {
                 case 3:
                     maxNombre = 200;
                     maxEssais = 7;
+                    break;
+                case 4:
+                    maxNombre = 50;
+                    maxEssais = 5;
                     break;
                 default:
                     System.out.println("Choix invalide, difficulté moyenne par défaut.");
