@@ -29,6 +29,7 @@ function startGame() {
         case "1": maxRange = 50; maxAttempts = 15; break;
         case "2": maxRange = 100; maxAttempts = 10; break;
         case "3": maxRange = 200; maxAttempts = 7; break;
+        case "4": maxRange = 50; maxAttempts = 5; break;
         default: maxRange = 100; maxAttempts = 10;
     }
 
